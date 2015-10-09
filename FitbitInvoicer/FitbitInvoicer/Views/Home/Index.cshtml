@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Fitbit Invoicer</h1>
+    <p class="lead">After users have provided information and we have received a token we can then invoice users for the number of steps they took in the rented shoes.</p>    
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Gain Access to a customer's Fitbit account</h2>
+        <p>
+            First we need to use an Oauth2 library to gain access to retrieve step information from a user's Fitbit account.
+        </p>
+        <p>@Html.ActionLink("Authenticate", "GetAuthorization", "Home")</p>
+    </div>
+</div>
