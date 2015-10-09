@@ -10,40 +10,40 @@ The Fitbit Surge is a pretty cool product:  GPS, 24 hour wrist based heart rate 
 
 The box was cool too, nice presentation (any photo quality issues are mine).
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitpackage.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitpackage.JPG)
 
 Here’s a list of all of the features.
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitpackagefeatures.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitpackagefeatures.JPG)
 
 And finally the watch itself!
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitthewatch.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitthewatch.JPG)
 
 It's a "super" watch!
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitsuperwatch.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitsuperwatch.JPG)
 
 
 # Setup
 
 Setup was very easy.  I downloaded the iOS Fitbit app to my iPhone and went through a series of steps.  I think the total time was under one minute and within that minute the scary data feeling came back.  My birthday, gender, height, weight, email address.  In 30 seconds Fitbit knows more about me than my wife.  Granted I could have easily doctored this information but would the device even be usable?  Probably not and I’m doing this for the hackathon participants so there is a higher cause that quashed the scary feeling.  The only downside to this process is that the Fitbit needed to be charged.  Isn’t that the case with all electronics?  The initial excitement killed because the device needs to be charged or did not come with AA batteries.  Oh well, at least the charge seemed quick and the USB to Fitbit cabling nice and neat.
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbittime.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbittime.JPG)
 
 #Initial Use
 
 I placed the watch on my wrist and immediately it was tracking my steps and heart rate.  Cool stuff.  This was all on a Wednesday, I wore the device over night and was fascinated to see the sleep pattern of someone with two young children.  In the morning the device screamed at me, "you need to learn how to sleep."  I showed it to my son and he was completely unimpressed chanting, "move it, move it."  A reference to the song, "I like to Move it," used throughout the Madagascar series of films.  His sentiment did not fall on deaf ears, when did I become so sedentary?
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitheartrate.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitheartrate.JPG)
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitsteps.JPG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitsteps.JPG)
 
 #Heart Rate Tracking
 
 The next test of the heart rate tracking would be a day of work.  What would my heart rate look like when in meetings or what happens before/after eating a bag of peanut m&m’s?  All of this would soon be answered.  Well, maybe and maybe not.  My heart rate certainly fluctuates in meetings but it is difficult to tell exactly what causes the fluctuation.  Is it passion?  Or readjusting in an uncomfortable seat?  It is too early to tell, and there are many confounders, but interesting nonetheless.  Here's a screenshot of the iOS heart rate daily graph.  That spike around 7 or 8pm is likely me attempting to mimic a bear crawling around on the grass.  We all have our favorite "workouts".
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitiosheartrate.PNG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitiosheartrate.PNG)
 
 #Vantiv Challenge
 
@@ -59,7 +59,7 @@ To get things started register your application at Fitbit.  Here you include var
 
 The authorization portion was the most difficult to implement however, there are OAuth 2.0 libraries floating around that might make this easier.  You can see the implementation in the code.  As with the Raspberry Pi repo the code is pretty ugly but in a state that it should be fairly easy to follow.
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitinvoicer.PNG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitinvoicer.PNG)
 
 * Website launches
 * User clicks the Authentication link
@@ -70,7 +70,7 @@ The authorization portion was the most difficult to implement however, there are
 * Make the API call to return total number of steps for one month and calculate invoice amount based on one penny per step.
 * Call the Vantiv API to process the charge using the token received from the initial Hosted Checkout integration.
 
-![Fitbit.CSharp](https://github.com/mercurypay/Fitbit.CSharp/blob/master/images/fitbitinvoicerstepstaken.PNG)
+![Fitbit.CSharp](https://github.com/vantivlabs/Fitbit.CSharp/blob/master/images/fitbitinvoicerstepstaken.PNG)
 
 Eeeps!  Those are some expensive shoes!  Probably should bill for this by flipping the billing around.  We want to incentivize people to use our shoes, and be healthy, the more you use the shoes the less you pay.  The angle we're working here is to obtain data and then we're going to use that data to provide additional value added services to our customers.  Give away the shoes for something more valuable.
 
