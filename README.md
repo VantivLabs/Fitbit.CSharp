@@ -87,3 +87,6 @@ Eeeps!  Those are some expensive shoes!  Probably should bill for this by flippi
 * I did not consider at least 5000 steps per day or other random things.  The goal of this exercise was to make sure everything would work and to find any large gotchas.  So far the Fitbit/commerce integration feels pretty decent.
 
 * While this app does everything in one step more than likely a real app would retrieve the access/refresh token after validating the customer's credit card and then store them for later use.  "Later use" means when invoicing all we would need is to use the refresh token to generate a new access token and then we could get the steps for that month. Beautiful!
+
+
+Fitbit, Fitbit Surge, iPhone, and iOS are registered or unregistered marks belonging to their respective owners who are unaffiliated with and do not endorse or sponsor Vantiv, and Vantiv likewise does not endorse or sponsor Fitbit, Fitbit Surge, iPhone, or iOS.
